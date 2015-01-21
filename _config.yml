@@ -1,0 +1,7 @@
+name: Lobo Browser
+markdown: redcarpet
+pygments: true
+category-list: [features]
+permalink: pretty
+baseurl: //lobobrowser.github.io
+
