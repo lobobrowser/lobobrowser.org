@@ -3,5 +3,9 @@ markdown: redcarpet
 pygments: true
 category-list: [features]
 permalink: pretty
-baseurl: //lobobrowser.github.io
-
+baseurl: //lobobrowser.com
+cobrasite: //cobra.lobobrowser.com
+communitysite: //forums.lobobrowser.org
+extendsite: //extend.lobobrowser.org
+blogsite: //blog.lobobrowser.com
+docsite:   //docs.lobobrowser.org
