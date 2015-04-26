@@ -51,12 +51,12 @@
 
         <div class="collapse navbar-collapse" id="mainnav">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="{{ site.baseurl }}">Home</a></li>
-            <li><a href="{{ site.baseurl }}/features">Features</a></li>
-            <li><a href="{{ site.baseurl }}/download">Download</a></li>
+            <li{% if page.section == "home" %} class="active"{% endif %}><a href="{{ site.baseurl }}">Home</a></li>
+            <li{% if page.section == "features" %} class="active"{% endif %><a href="{{ site.baseurl }}/features">Features</a></li>
+            <li{% if page.section == "download" %} class="active"{% endif %><a href="{{ site.baseurl }}/download">Download</a></li>
             <li><a href="{{ site.cobrasite }}">Cobra</a></li>
             <li><a href="{{ site.communitysite }}">Community</a></li>
-            <li><a href="{{ site.baseurl }}/get-involved">Get Involved</a></li>
+            <li{% if page.section == "get-involved" %} class="active"{% endif %><a href="{{ site.baseurl }}/get-involved">Get Involved</a></li>
             <li><a href="{{ site.extendsite }}">Extend</a></li>
             <li><a href="{{ site.docsite }}">Docs</a></li>
             <li><a href="{{ site.blogsite }}">Blog</a></li>
