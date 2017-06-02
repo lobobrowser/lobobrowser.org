@@ -1,11 +1,12 @@
-name: Lobo Browser
+name: LoboBrowser
 markdown: redcarpet
 pygments: true
 category-list: [features]
 permalink: pretty
-baseurl: //lobobrowser.com
-cobrasite: //cobra.lobobrowser.com
+baseurl: //lobobrowser.org
+cobrasite: //cobra.lobobrowser.org
 communitysite: //forums.lobobrowser.org
 extendsite: //extend.lobobrowser.org
-blogsite: //blog.lobobrowser.com
+blogsite: //blog.lobobrowser.org
 docsite:   //docs.lobobrowser.org
+legalsite: //legal.lobobrowser.org
