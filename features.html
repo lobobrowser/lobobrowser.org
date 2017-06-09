@@ -1,0 +1,83 @@
+---
+layout: default
+section: features
+
+title: "LoboBrowser"
+---
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">Why a Pure Java Browser?</h4>
+    <p class="card-text">There are a number of advantages to be derived from a browser that is written in Java as opposed to a language compiled into native code, namely:<br/>
+
+      <ul>
+        <li><b>Security</b> - In principle, a Java program is less suceptible to certain types of vulnerabilities such as a buffer overflow attack. Java's security model can also allow web content
+          to have access to a complex set of APIs, except in a controlled sandbox.</li>
+        <li><b>Extensibility</b> - A Java-based application can be extended via powerful cross-platform plugins. Consider the difference this has made for Java software such as jEdit
+          and Eclipse. (LoboBrowser already has a Plugin API).</li>
+        <li><b>New paradigms</b> - With the help of Java we can implement new powerful cross-platform and secure mechanisms to represent web content. As of version 0.98, JavaFX and Java are first-class citizens in
+          LoboBrowser on par with HTML.</li>
+        <li><b>Portability</b> - This is the obvious advantage of a pure Java application.</li>
+        <li><b>Plugins</b> - An extensions capability was released in version 0.97.</li>
+        <li><b>Browser features</b> - Starting with Lobo 0.97 several features you would expect to find in any browser are available, such as HTTP authentication, SSL, caching, preferences, bookmarks, navigation
+          menues, a download GUI, etc. There are also some unique and advanced features we have started to introduce, e.g. a different type of bookmarks system based on tags, with search; a directory menu, separate
+          to bookmarks; a list of recent hosts visited; multiple startup pages; search engines; page services such as Wayback Machine; etc.</li>
+        <li><b>General rendering</b> - Incremental rendering was implemented in 0.96.2. This also allows Javascript-driven animations to occur.</li>
+        <li><b>Javascript</b> - The Javascript engine is functional, but not all APIs are complete. The AJAX class XMLHttpRequest was implemented in 0.96.2. Basic element events are supported.</li>
+        <li><b>HTML DOM</b> - A good portion of the HTML DOM Level 2 interfaces are implemented. Some attributes and methods may not be functional.</li>
+        <li><b>CSS</b> - Style tags, style attributes and class attributes are functional, but not all style properties are implemented at this point. Property overriding (cascading) is functional. Absolute
+          positioning, overflow (scrolling) and other such features have been implemented. Support for different types of selectors is currently limited. The only pseudo-element supported is hover. The CSS
+          parser we use is fairly strict, so some existing CSS documents may not parse.</li>
+        <li><b>Forms</b> - POST and GET are functional. POST reloading is not supported (and we're not sure we want to support it). All input types, including file, are currently implemented.</li>
+        <li><b>Tables</b> - There is good support for tables. Some features such as the table caption and character-based alignment are still pending.</li>
+        <li><b>Frames</b> - There is support for both IFRAMEs and pages consisting only of framesets.</li>
+        <li><b>Lists</b> - Lists are almost fully functional, except for advanced configuration via CSS.</li>
+        <li><b>Text formatting</b> - Style properties for colors, backgrounds, fonts, and text decorations are functional. Deprecated tags such as FONT, FONTBASE, etc. are implemented as well.</li>
+      </ul>
+
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">Rendering Engine API</h4>
+    <p class="card-text">We provide a separate Java-based programming library, named CobraParser, which implements the parsing and rendering capabilities of LoboBrowser. CobraParser is also open source.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">Browser API</h4>
+    <p class="card-text">We document LoboBrowser's Java code such that it can be used as an embeddable browser API. This API is released under the MIT license.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">Plugin API</h4>
+    <p class="card-text">LoboBrowser supports extensions (plugins) written in Java. See the plugin example page.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">Licensing</h4>
+    <p class="card-text">LoboBrowser is open source and is released under the terms of the MIT license. We make the source code available on github.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">Contributing</h4>
+    <p class="card-text">LoboBrowser is work in progress. If you would like to contribute, please see the repository on github for information on how to set up an environment for development of LoboBrowser, and on
+      how to submit code patches.<br/> If you have any specific suggestions on improving LoboBrowser or CobraParser, please don't hesitate to contact us.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-block">
+    <h4 class="card-title">Help</h4>
+    <p class="card-text">If you need assistance using LoboBrowser, please visit our Community Forums.</p>
+  </div>
+</div>
