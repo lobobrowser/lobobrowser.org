@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 <head>
-
-   <title>
-  	{% if page.url == "/" %}
-		{{ page.title }}
-	{% else %}
-		{{ page.title }} - {{ site.name }}
-	{% endif %}
+  <title>
+    {% if page.url == "/" %}
+      {{ page.title }}
+    {% else %}
+      {{ page.title }} - {{ site.name }}
+    {% endif %}
   </title>
 
   <!-- begin meta tags -->
@@ -17,74 +16,72 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
   <!-- end meta tags -->
-  
+
   <!-- begin css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
   <!-- end css -->
-	
 </head>
 
 <body>
-  
-  	<!-- begin navbar -->
-    <nav class="navbar fixed-top navbar-light bg-faded navbar-toggleable-md ">
-       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-       </button>	    
-      	<a class="navbar-brand" href="#">
-		  <img src="{{ site.baseurl }}/assets/images/LoboBrowser32.png" width="30" height="30" class="d-inline-block align-top" alt="">
-		  LoboBrowser
-      	</a>
-     	<div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav"> 
-            <li class="nav-item active">
-				<a class="nav-link" href="{{ site.baseurl }}">Home <span class="sr-only">(current)</span></a>
-			 </li>
-              <li class="nav-item">
-				  <a class="nav-link" href="{{ site.baseurl }}/features">Features</a>
-			  </li>
-			  <li class="nav-item">
-				  <a class="nav-link" href="{{ site.baseurl }}/download">Download</a>
-			  </li>
-              <li class="nav-item">
-				  <a class="nav-link" href="{{ site.cobrasite }}">Cobra</a>
-			  </li>
-              <li class="nav-item">
-				  <a class="nav-link" href="{{ site.communitysite }}">Community</a>
-			  </li>
-              <li class="nav-item">
-				  <a class="nav-link" href="{{ site.baseurl }}/get-involved">Get Involved</a>
-			  </li>
-              <li class="nav-item">
-				  <a class="nav-link" href="{{ site.extendsite }}">Extend</a>
-			  </li>
-              <li class="nav-item">
-				  <a class="nav-link" href="{{ site.docsite }}">Docs</a>
-			  </li>
-              <li class="nav-item">
-				  <a class="nav-link" href="{{ site.blogsite }}">Blog</a>
-			  </li>
-          </ul>
-        </div>
-    </nav>  
-	<!-- end navbar -->
-  
+  <!-- begin navbar -->
+  <nav class="navbar fixed-top navbar-light bg-faded navbar-toggleable-md ">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+      <img src="{{ site.baseurl }}/assets/images/LoboBrowser32.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      LoboBrowser
+    </a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="{{ site.baseurl }}">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/download">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.cobrasite }}">Cobra</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.communitysite }}">Community</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.baseurl }}/get-involved">Get Involved</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.extendsite }}">Extend</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.docsite }}">Docs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ site.blogsite }}">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end navbar -->
+
   <!-- begin content -->
   <div id="wrapper" class="container">
     {{ content }}
   </div>
   <!-- end content -->
-  
+
   <!-- begin footer -->
-  
+
   <!-- end footer -->
-  
+
   <!-- begin js -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <!-- end js -->		
+  <!-- end js -->
 </body>
 
 </html>
