@@ -3,7 +3,7 @@ markdown: redcarpet
 pygments: true
 category-list: [features]
 permalink: pretty
-baseurl: //lobobrowser.org
+url: https://lobobrowser.org
 cobrasite: //cobra.lobobrowser.org
 communitysite: //forums.lobobrowser.org
 extendsite: //extend.lobobrowser.org
